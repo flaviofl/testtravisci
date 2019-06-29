@@ -3,6 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t mannydesigns/node .
-  - docker images mannydesigns/node
-  
+  - docker build -t ibestdesigns/node .
+  - docker images ibestdesigns/node
